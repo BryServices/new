@@ -1,0 +1,87 @@
+import { Product } from '../types';
+
+export const products: Product[] = [
+  {
+    id: '1',
+    slug: 'hoodie-aura',
+    name: 'Hoodie Aura',
+    price: 95000,
+    description: 'Coton 480 g/m². Coupe architecturale. Présence.',
+    images: {
+      main: 'https://img-wrapper.vercel.app/image?url=https://placehold.co/1000x1200/000000/FFFFFF.png?text=Aura',
+      gallery: [
+        'https://img-wrapper.vercel.app/image?url=https://placehold.co/1000x1200/1C1C1C/FFFFFF.png?text=Texture',
+        'https://img-wrapper.vercel.app/image?url=https://placehold.co/1000x1200/373737/FFFFFF.png?text=Couture',
+      ],
+    },
+    category: 'Hoodie',
+    material: 'Coton lourd',
+    availableColors: ['Noir', 'Gris anthracite'],
+    availableSizes: ['S', 'M', 'L', 'XL'],
+    stock: 18,
+  },
+  {
+    id: '2',
+    slug: 't-shirt-silence',
+    name: 'T-shirt Silence',
+    price: 45000,
+    description: 'Coton organique peigné. Toucher dense. Silhouette nette.',
+    images: {
+      main: 'https://img-wrapper.vercel.app/image?url=https://placehold.co/1000x1200/000000/FFFFFF.png?text=Silence',
+      gallery: [],
+    },
+    category: 'T-shirt',
+    material: 'Coton lourd',
+    availableColors: ['Noir', 'Blanc cassé'],
+    availableSizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
+    stock: 50,
+  },
+  {
+    id: '3',
+    slug: 'pantalon-equilibre',
+    name: 'Pantalon Équilibre',
+    price: 110000,
+    description: 'Laine froide technique. Tomber impeccable. Mouvement silencieux.',
+    images: {
+      main: 'https://img-wrapper.vercel.app/image?url=https://placehold.co/1000x1200/000000/FFFFFF.png?text=Equilibre',
+      gallery: [],
+    },
+    category: 'Pantalon',
+    material: 'Laine',
+    availableColors: ['Noir'],
+    availableSizes: ['S', 'M', 'L'],
+    stock: 25,
+  },
+  {
+    id: '4',
+    slug: 'surchemise-minimal',
+    name: 'Surchemise Minimal',
+    price: 135000,
+    description: 'Cuir végétal sourcé. Structure souple. Déclaration discrète.',
+    images: {
+      main: 'https://img-wrapper.vercel.app/image?url=https://placehold.co/1000x1200/000000/FFFFFF.png?text=Minimal',
+      gallery: [],
+    },
+    category: 'Surchemise',
+    material: 'Cuir végétal',
+    availableColors: ['Noir'],
+    availableSizes: ['M', 'L', 'XL'],
+    stock: 12,
+  },
+  {
+    id: '5',
+    slug: 'casquette-unite',
+    name: 'Casquette Unité',
+    price: 35000,
+    description: 'Sergé de coton dense. Sans logo. Forme pure.',
+    images: {
+      main: 'https://img-wrapper.vercel.app/image?url=https://placehold.co/1000x1000/000000/FFFFFF.png?text=Unite',
+      gallery: [],
+    },
+    category: 'Casquette',
+    material: 'Coton lourd',
+    availableColors: ['Noir', 'Beige sable'],
+    availableSizes: ['XXXL'], // One size fits all
+    stock: 100,
+  },
+];

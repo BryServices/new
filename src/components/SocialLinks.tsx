@@ -1,10 +1,9 @@
 import React from 'react';
-import { Facebook, Instagram, Youtube, Tiktok } from 'lucide-react';
+import { Facebook, Instagram, Youtube } from 'lucide-react';
 
 const socialLinks = [
   { name: 'Facebook', url: 'https://facebook.com/auradhom', icon: <Facebook size={20} /> },
   { name: 'Instagram', url: 'https://instagram.com/auradhom', icon: <Instagram size={20} /> },
-  { name: 'TikTok', url: 'https://tiktok.com/auradhom', icon: <Tiktok size={20} /> },
   { name: 'YouTube', url: 'https://youtube.com/auradhom', icon: <Youtube size={20} /> },
 ];
 

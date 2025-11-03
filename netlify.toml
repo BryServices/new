@@ -1,9 +1,13 @@
 [build]
-  command = "npm run build"
+  command = "npm ci && npm run build"
   publish = "dist"
 
 [build.environment]
   NODE_VERSION = "20"
+  CI = "true"
+
+[context.production.environment]
+  NODE_ENV = "production"
 
 [[redirects]]
   from = "/*"
